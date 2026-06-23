@@ -12,7 +12,7 @@ name = 'John Doe'
 age = 25
 
 ```
-In the above example the variable `name` holds the value `"John Doe"`.
+In the above example the variable `name` holds the value `'John Doe'`.
 
 - This value is a **String** - A series of characters used to represent text
 - Strings are written with single or double quotes, for example `'Hello'` or `"Hello"`
@@ -28,7 +28,7 @@ If you break any of those rules, your Python program will throw a `SyntaxError`
 **Common naming conventions for variables in Python**
 1. Variable names should be in lowercase, with separate words separated by an underscore. This is called **snake case**:
 ```python
-my_variable_name = "freeCodeCamp"
+my_variable_name = 'freeCodeCamp'
 ```
 2. Use descriptive names for variables. For example, if you want to save a user's age as a variable, `user_age` is better than `age` or an abbreviation like `ua`:
 ```python
@@ -58,7 +58,7 @@ Every programming language has some way to output data to the terminal with a bu
 - In Python, you can use the `print` function to print data to the terminal.
 - Put the string `Hello world!` in between the opening and closing parentheses and call the `print` function:
 ```python
-print("Hello world!") # Hello world!
+print('Hello world!') # Hello world!
 ```
 - In the example above, the string `Hello world!` is an *argument* passed to the `print` function.
 - You can also use the `print` function to show multiple values, or arguments, at once by separating them with commas. For example
@@ -74,14 +74,14 @@ Python automatically adds a space between each item when you separate them with 
 Before working with variables, it's important to understand data types.
 - Data types describe the kind of value a variable holds. For example, a number, a piece of text (string), or a list of items.
 - Programming languages use data types so they know how to store and work with different kinds of information.
-- Python is a dynamically-typed language like JavaScript, you don't need to explicitly declare variable types. The interpreter determines the data type based on the value you assign.  
+- Python is a `dynamically-typed language` like JavaScript, you don't need to explicitly declare variable types. The interpreter determines the data type based on the value you assign.  
 
 ```python
 name = 'John Doe'#Python interpreter knows this is a string
 age = 25 # The interpreter knows this is an integer
 
 ```
-This is in contrast to some statically-typed languages like #C, Java, and C++, where you have to declare types with variables
+This is in contrast to some `statically-typed languages` like #C, Java, and C++, where you have to declare types with variables
 
 ```java
 string name = 'John Doe'
@@ -105,9 +105,9 @@ In contrast, some languages compile your program before it runs.
 - **Integer**: A whole number without decimals, for example, `10` or `-5`.
 ```python
 my_integer_var = 10
-print("nteger:" my_integer_var) # Integer: 10
+print('Integer:' my_integer_var) # Integer: 10
 ```
 - **Float**: A number with a decimal point, like `4.41` or `-0.4`.
 ```python
 my_float_var = 4.50
-print('Float:', my_float_var)
+print('Float:' my_float_var) # Float: 4.50
