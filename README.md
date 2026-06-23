@@ -52,3 +52,62 @@ x = 56 # What do you mean by x?
 # multi-line
 # comment
 ```
+
+### How Does the Print Function Work?
+Every programming language has some way to output data to the terminal with a built-in method, function, property, or keyword.
+- In Python, you can use the `print` function to print data to the terminal.
+- Put the string `Hello world!` in between the opening and closing parentheses and call the `print` function:
+```python
+print("Hello world!") # Hello world!
+```
+- In the example above, the string `Hello world!` is an *argument* passed to the `print` function.
+- You can also use the `print` function to show multiple values, or arguments, at once by separating them with commas. For example
+
+```python
+print('My favorite colors are', 'blue', 'green', 'red')
+
+# Output: My favorite colors are blue green red
+```
+Python automatically adds a space between each item when you separate them with commas. This is helpful if you want to print several pieces of information together
+
+### Understanding Variables and Data Types
+Before working with variables, it's important to understand data types.
+- Data types describe the kind of value a variable holds. For example, a number, a piece of text (string), or a list of items.
+- Programming languages use data types so they know how to store and work with different kinds of information.
+- Python is a dynamically-typed language like JavaScript, you don't need to explicitly declare variable types. The interpreter determines the data type based on the value you assign.  
+
+```python
+name = 'John Doe'#Python interpreter knows this is a string
+age = 25 # The interpreter knows this is an integer
+
+```
+This is in contrast to some statically-typed languages like #C, Java, and C++, where you have to declare types with variables
+
+```java
+string name = 'John Doe'
+int age = 25
+```
+The dynamic-typing nature of Python makes coding really fast and more flexible, but it can lead to unexpected bugs because type errors are detected only when a program runs, not when the program compiles
+
+- Since Python determines data types while your program is running, type-related mistakes are only discovered at that moment.
+- When a program runs, Python executes your code line by line.
+- If it reaches a line where a certain object is expected to behave in a way it's not able to, Python will stop and show an error.
+
+In contrast, some languages compile your program before it runs.
+- Compiling means the computer checks your code in advance and prepares it to run.
+- During this step, those languages can catch type errors before the program even starts
+
+- In Python type errors can reveal themselves during execution, when the program is actually running and using your code.
+
+- Compiled languages catch type errors during the compile step, before the program is allowed to run.
+
+**Common data types in Python**
+- **Integer**: A whole number without decimals, for example, `10` or `-5`.
+```python
+my_integer_var = 10
+print("nteger:" my_integer_var) # Integer: 10
+```
+- **Float**: A number with a decimal point, like `4.41` or `-0.4`.
+```python
+my_float_var = 4.50
+print('Float:', my_float_var)
