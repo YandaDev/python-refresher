@@ -128,31 +128,35 @@ print('String:', my_string_var) # String: hello
 my_boolean_var = True
 print('Boolean:', my_boolean_var) # Boolean: True
 ```
-- **Set**: An `unordered collection of unique elements` enclosed in curly braces, like `{0.5, 4, 'apple'}`
+- **Set**: An `unordered, mutable collection of unique (no duplicates) elements`, which may be of different data types enclosed in `curly braces`, like `{0.5, 4, 'apple'}`.
+`Unordered` elements have no defined position.
 ```python
 my_set_var = {6, 'code', 2.4}
 print('Set:', my_set_var) # Set: {6, 'code', 2.4}
 ```
-- **Dictonary**: A collecton of `key-value pairs` enclosed in curly braces, like `{'name': 'John Doe', 'age': 28}`
+- **Dictonary**: An `unordered, mutable collecton of `key-value pairs enclosed in `curly braces`, like `{'name': 'John Doe', 'age': 28}`
 ```python
 my_dictionary_var = {'name': 'Alice', 'age': 25}
 print('Dictionary:', my_dictionary_var) # Dictionary: {'name': 'Alice', 'age': 25}
 ```
-- **Tuple**: An `immutable ordered collection`, enclosed in parentheses, like `(apple', 4.5, 7)`
+- **Tuple**: An `ordered, immutable collection of elements` which may be of different data types, enclosed in `parentheses`, like `(apple', 4.5, 7)`
+`Ordered` elements have a defined, stable position (index/position).
 ```python
 my_tuple_var = (6, 'code', 2.4)
 print('Tuple:', my_tuple_var) # Tuple: (6, 'code', 2.4)
 ```
+- **List**: An `ordered, mutable collection of elements` which may be of different data types, enclosed in `square brackets`
+```python
+my_list = [22, 'Hello world', 3.14, True]
+print(my_list) # [22, 'Hello world', 3.14, True]
+```
+
 - **Range**: A sequence of numbers, often used n loops, for example, `range(5)`
 ```python
 my_range_var = range(5)
 print('Range:', my_range_var) # Range : range(0.5)
 ```
-- **List**: An `ordered collection` of elements that `supports different data types`
-```python
-my_list = [22, 'Hello world', 3.14, True]
-print(my_list) # [22, 'Hello world', 3.14, True]
-```
+
 - **None**: A special value that represents the absence of a value
 ```python
 my_none_var = None
